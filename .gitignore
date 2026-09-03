@@ -1,3 +1,18 @@
-docs/
+# node / next.js build output
+node_modules/
+.next/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+
+# env / os
 .env*
+.DS_Store
+*.log
+
+# local
+docs/
 makefile
+CLAUDE.md
+graphify-out/
